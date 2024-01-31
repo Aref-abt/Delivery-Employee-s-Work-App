@@ -1,8 +1,8 @@
 # Delivery App
 
-Developers:
+Developer:
 - Aref Abou Trabi (aref.aboutrabi7@gmail.com)
-- Rani Sharaf Din
+
 
 ## Overview
 
