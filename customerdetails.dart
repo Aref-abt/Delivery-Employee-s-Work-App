@@ -7,7 +7,7 @@ import 'refusedorders.dart';
 class CustomerDetails extends StatelessWidget {
   const CustomerDetails({Key? key}) : super(key: key);
 
-  // Function to navigate to the Finished Order page
+  // Navigate to the Finished Order page
   void navigateToFinishedOrder(BuildContext context) {
     Navigator.push(
       context,
@@ -15,7 +15,7 @@ class CustomerDetails extends StatelessWidget {
     );
   }
 
-  // Function to navigate to the Refused Orders page
+  // Navigate to the Refused Orders page
   void navigateToRefusedOrders(BuildContext context) {
     Navigator.push(
       context,
@@ -23,7 +23,7 @@ class CustomerDetails extends StatelessWidget {
     );
   }
 
-  // Function to initiate a phone call
+  // Initiate a phone call
   void callCustomer(String phoneNumber) async {
     final phoneUrl = 'tel:$phoneNumber';
     if (await canLaunch(phoneUrl)) {
