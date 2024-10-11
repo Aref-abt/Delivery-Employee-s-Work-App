@@ -1,3 +1,4 @@
+//define Customer attrs
 class Customer {
   final String name;
   final String phoneNumber;
